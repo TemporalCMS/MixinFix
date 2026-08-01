@@ -4,7 +4,8 @@
   "package": "dev.skogrine.mixinfix.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "BuildCreativeModeTabContentsEventMixin"
+    "BuildCreativeModeTabContentsEventMixin",
+    "ItemStackTooltipMixin"
   ],
   "injectors": {
     "defaultRequire": 1
