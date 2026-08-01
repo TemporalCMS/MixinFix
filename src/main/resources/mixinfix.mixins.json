@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.skogrine.mixinfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BuildCreativeModeTabContentsEventMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

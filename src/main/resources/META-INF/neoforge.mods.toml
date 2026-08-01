@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "mixinfix"
+version = "1.0.0"
+displayName = "Skogrine Mixin Fix"
+description = "Fix principalement plein de bug"
+authors = "Skogrine"
+
+[[mixins]]
+config = "mixinfix.mixins.json"
+
+[[dependencies.mixinfix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.mixinfix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "CLIENT"
